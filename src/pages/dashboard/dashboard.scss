@@ -1,0 +1,197 @@
+#page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 90vh;
+    align-items: center;
+    
+   
+}
+
+.empty-starred{
+    color: #4F4F4F;
+    font-weight: 300;
+}
+
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13rem;
+    flex-direction: column;
+    height: 8rem;
+    
+    .title{
+        color: #4F4F4F;
+        font-weight: 300;
+    }
+
+    svg{
+      height: 35px;
+      width: 35px;
+    }
+}
+
+.container-search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    width: 66rem;
+
+    .form{
+        #container-onlyLine{
+            width: 500px;
+        }
+    }
+}
+
+.cointainer-searched-user{
+    margin-top: 4rem;
+    display: flex;
+    height: 700px;
+    margin-bottom: 2rem;
+
+
+    .cointainer-searched-user-info{
+        background-color: #5253B9;
+        width: 18rem;
+        height: 70%;
+        margin-top: 3%;
+        border-radius: 5px;
+        color:  #FFFFFF;
+        font-weight: 300;
+        
+        
+        
+        &-top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #5253B9;
+            height: 50%;
+            padding: 10px;
+            border-radius: 5px;
+
+            .avatar{
+                width: 160px;
+                height: 160px;
+                border-radius: 100px;
+            }
+        }
+
+
+        &-bottom{
+            background-color: #5858b7;
+            display: flex;
+            flex-direction: column;
+            height: 50%;
+            padding: 10px;
+            border-radius: 5px;
+
+            .bio{
+                display: flex;
+                // text-align: center;
+
+            }
+
+            .others{
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+
+                span{
+                    margin-top: 1rem;
+                    width: fit-content;
+                }
+                
+                svg{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .cointainer-searched-user-repo-list{
+        width: 50rem;
+        height: 60rem;
+        overflow-y: scroll;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.25);
+
+        .empty-starred{
+            display: flex;
+            height: 20rem;
+            align-items: center;
+            justify-content: center;
+            color: #4F4F4F;
+            font-size: 16pt;
+            font-weight: 300;
+        }
+
+        .card{
+            background-color: white;
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #FFFFFF;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            height: 100px;
+            margin: 1rem;
+            
+            &-info{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: fit-content;
+                width: 30rem;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                    margin-top: 1rem;
+                }
+
+                &-title{
+                   color: #4F4F4F;   
+                   font-weight: 300;
+                   font-style: normal;
+                   font-weight: 300;
+                   font-size: 16px;
+                   line-height: 19px;
+                   margin-bottom: 1rem;
+                    
+                   span{
+                       display: flex;
+                       text-align: center;
+                       align-items: center;
+
+                       svg{
+                           margin-right: 1rem;
+                           margin-bottom: 2px;
+                       }
+                   }
+
+                }
+            }
+        }
+    }
+}
+
+
+.viewer-avatar{
+    height: 64px;
+    width: 64px;
+    border-radius: 100px;
+  
+}
+     
+
+  
+
+ 

@@ -1,0 +1,30 @@
+.page{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+    min-width: 300px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 600px;
+
+    #access-token-input{
+        width: 18rem;
+    }
+ } 
+
